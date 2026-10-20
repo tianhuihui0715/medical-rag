@@ -1,0 +1,22 @@
+# 本机连接凭据、环境和编辑器配置。
+/config.yaml
+.env
+.env.*
+.venv/
+.venv*/
+/venv/
+/.vscode/
+/.idea/
+
+# 本地模型由部署环境单独提供。
+/models/
+
+# Python 缓存、日志和系统文件。
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+/logs/
+.DS_Store

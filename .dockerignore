@@ -1,0 +1,13 @@
+# 排除本机配置、凭据和开发产物；模型文件保留在构建上下文中。
+config.yaml
+init.sql
+AGENTS.md
+.git
+.vscode
+.venv
+.env*
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.DS_Store
+*.log
